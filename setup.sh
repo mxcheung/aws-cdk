@@ -24,3 +24,5 @@ npm install -D aws-xray-sdk
 # Install a dependency for types for AWS Lambda, allowing you to use typescript as the language to write the Lambda function code:
 
 npm install -D @types/aws-lambda
+
+# install aws lambda
