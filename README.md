@@ -28,7 +28,14 @@ curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
 
 ```
 cloud_user:~/environment/first-cdk-app (master) $ curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
-{"Items":[],"Count":0,"ScannedCount":0}cloud_user:~/environment/first-cdk-app (master) $ 
+{"Items":[],"Count":0,"ScannedCount":0}
+
+cloud_user:~/environment/first-cdk-app (master) $ 
+
+cloud_user:~/environment/first-cdk-app (master) $ curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
+{"Items":[{"id":"my-cdk"}],"Count":1,"ScannedCount":1}
+
+cloud_user:~/environment/first-cdk-app (master) $ 
 
 ```
 
