@@ -10,5 +10,23 @@ FirstCdkAppStack: creating CloudFormation changeset...
 1:49:34 AM | CREATE_IN_PROGRESS   | AWS::IAM::Policy            | function/ServiceRole/DefaultPolicy
 
 
+✨  Deployment time: 73.29s
+
+Outputs:
+FirstCdkAppStack.RestAPIEndpointB14C3C54 = https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/
+Stack ARN:
+arn:aws:cloudformation:us-east-1:813587675374:stack/FirstCdkAppStack/3102c530-ebb0-11ed-b75c-0e5e6e89f46f
+
+✨  Total time: 85.18s
+
+
+# test 
+
+curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
+
+cloud_user:~/environment/first-cdk-app (master) $ curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
+{"Items":[],"Count":0,"ScannedCount":0}cloud_user:~/environment/first-cdk-app (master) $ 
+
+
 # resources
 https://github.com/DavidBlocher/cdk-lab-1
