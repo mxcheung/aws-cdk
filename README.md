@@ -24,9 +24,13 @@ arn:aws:cloudformation:us-east-1:813587675374:stack/FirstCdkAppStack/3102c530-eb
 
 curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
 
+
+
+```
 cloud_user:~/environment/first-cdk-app (master) $ curl https://tw7ypv7kd0.execute-api.us-east-1.amazonaws.com/prod/scan
 {"Items":[],"Count":0,"ScannedCount":0}cloud_user:~/environment/first-cdk-app (master) $ 
 
+```
 
 # resources
 https://github.com/DavidBlocher/cdk-lab-1
