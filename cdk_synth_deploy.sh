@@ -4,3 +4,7 @@ cdk synth
 # Deploy our CDK:
 
 cdk deploy
+
+y
+
+# copy url
