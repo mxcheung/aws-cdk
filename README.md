@@ -38,6 +38,9 @@ cloud_user:~/environment/first-cdk-app (master) $ curl https://tw7ypv7kd0.execut
 cloud_user:~/environment/first-cdk-app (master) $ 
 
 ```
+# DynamoDb 
+
+MyDynamoDbStackStack-TableCD117FA1-1E53L1ZUGIOAL
 
 # resources
 https://github.com/DavidBlocher/cdk-lab-1
