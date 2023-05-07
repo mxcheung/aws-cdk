@@ -5,10 +5,10 @@ npm install -g npm
 npm install aws-cdk-lib 
 # Make the directory in which the application will live:
 
-mkdir first-cdk-app
+mkdir my-dynamo-db-stack
 # Go into the newly made directory:
 
-cd first-cdk-app/     
+cd my-dynamo-db-stack/     
 # Initialize our CDK application:
 
 cdk init app --language typescript
