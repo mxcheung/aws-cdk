@@ -9,3 +9,6 @@ TypeError: Cannot read properties of undefined (reading 'overrideLogicalId')
     at Object.require.extensions.<computed> [as .ts] (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1621:12)
     at Module.load (node:internal/modules/cjs/loader:1033:32)
     at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+
+    // 👇 Get access to the CfnBucket resource
+    const cfnBucket = (bucket.node.defaultChild as CfnBucket);
