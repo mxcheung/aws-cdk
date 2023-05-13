@@ -16,3 +16,11 @@ TypeError: Cannot read properties of undefined (reading 'overrideLogicalId')
     export declare class Bucket extends Construct {
     constructor(scope: Construct, id: string, props: CustomConstructProps);
  
+
+const s3BucketChild = customConstruct.node.findChild((child) => child instanceof s3.CfnBucket) as s3.CfnBucket;
+if (s3BucketChild) {
+  // Perform operations with the s3BucketChild
+  console.log('Found S3 bucket child:', s3BucketChild.node.id);
+} else {
+  console.log('S3 bucket child not found');
+}
