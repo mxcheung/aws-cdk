@@ -12,3 +12,7 @@ TypeError: Cannot read properties of undefined (reading 'overrideLogicalId')
 
     // 👇 Get access to the CfnBucket resource
     const cfnBucket = (bucket.node.defaultChild as CfnBucket);
+    
+    export declare class Bucket extends Construct {
+    constructor(scope: Construct, id: string, props: CustomConstructProps);
+ 
