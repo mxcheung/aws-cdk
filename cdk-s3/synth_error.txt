@@ -1,0 +1,11 @@
+TypeError: Cannot read properties of undefined (reading 'overrideLogicalId')
+    at new GeS3CdkStack (C:\Dev\Projects\ge-s3-cdk\lib\ge-s3-cdk-stack.ts:77:15)
+    at C:\Dev\Projects\ge-s3-cdk\bin\ge-s3-cdk.ts:28:26
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Dev\Projects\ge-s3-cdk\bin\ge-s3-cdk.ts:26:9)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module.m._compile (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
