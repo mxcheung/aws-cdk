@@ -24,3 +24,12 @@ if (s3BucketChild) {
 } else {
   console.log('S3 bucket child not found');
 }
+
+// Assuming you have a node object
+if (Construct.isConstruct(node)) {
+  // The node is a Construct
+  console.log('Node is a Construct');
+} else {
+  // The node is not a Construct
+  console.log('Node is not a Construct');
+}
