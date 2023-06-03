@@ -44,3 +44,5 @@ MyDynamoDbStackStack-TableCD117FA1-1E53L1ZUGIOAL
 
 # resources
 https://github.com/DavidBlocher/cdk-lab-1
+
+https://us-east-1.console.aws.amazon.com/iamv2/home#/users/details/cloud_user/create-access-key
