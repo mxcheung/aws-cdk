@@ -1,0 +1,15 @@
+TSError: ⨯ Unable to compile TypeScript:
+lib/ge-s3-cdk-stack.ts(51,11): error TS2322: Type '{ noncurrentVersionExpiration: cdk.Duration; transitions: { storageClass: cdk.aws_s3.StorageClass; transitionAfter: cdk.Duration; }[]; }' is not assignable to type 'LifecycleRuleProps'.
+  Object literal may only specify known properties, and 'noncurrentVersionExpiration' does not exist in type 'LifecycleRuleProps'.
+
+    at createTSError (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Dev\Projects\ge-s3-cdk\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19) {
+  diagnosticCodes: [ 2322 ]
