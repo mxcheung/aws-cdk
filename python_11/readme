@@ -1,1 +1,3 @@
+aws_lambda: Python 3.11 is added to aws_lambda module with aws-cdk-lib 2.88.0, but it is not supported yet, causing cdk-nag error #26451
+
 https://github.com/aws/aws-cdk/issues/26451
